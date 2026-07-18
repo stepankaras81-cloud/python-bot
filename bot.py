@@ -1,6 +1,6 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Настройка логирования
 logging.basicConfig(
@@ -15,8 +15,8 @@ TOKEN = "8868277445:AAEPYSE-uoej11anci9jpiaoDYsOqL_-tps"
 # Ссылка на фото
 PHOTO_URL = "https://i.postimg.cc/BPbTnkcs/IMG-4158.png"
 
-# ССЫЛКА НА ТВОЙ MINI APP (ЗАМЕНИ НА СВОЮ!)
-MINI_APP_URL = "https://твой-сайт.com"  # ← СЮДА ВСТАВЬ СВОЙ URL
+# ⚡ ССЫЛКА НА ТВОЙ MINI APP (ВСТАВЬ СВОЮ!)
+MINI_APP_URL = "https://verifying-production.up.railway.app"  # ← ТВОЙ URL!
 
 # Функция для команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
