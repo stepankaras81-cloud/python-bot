@@ -10,7 +10,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ТОКЕН БОТА
-TOKEN = "8738031314:AAFZ7ZnyI6lw6PfFCWQp29rB4lKDTtyGj8Y"
+TOKEN = "8868277445:AAEPYSE-uoej11anci9jpiaoDYsOqL_-tps"
 
 # Ссылка на фото
 PHOTO_URL = "https://i.postimg.cc/BPbTnkcs/IMG-4158.png"
